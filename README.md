@@ -2,7 +2,7 @@
 This is the prompt template I used to generate keywords with LLM from Wikipedia event description.
 
 
-Extract 2-4 keywords for Google Trends search from this historical event.
+prompt = """Extract 2-4 keywords for Google Trends search from this historical event.
 Focus only on the most essential terms people would search for.
 Exclude dates, numbers, and descriptive details. Only add years when necessary.
 Keep your response extremely brief - just the essential search terms.
